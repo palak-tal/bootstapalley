@@ -1,0 +1,96 @@
+.address-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  @media screen and (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+
+  }
+}
+
+.contact-box {
+  padding: 40px;
+  width: 50%;
+  @media screen and (max-width: 600px) {
+
+  }
+
+}
+
+.address-item {
+  font-size: 40px;
+  font-weight: 600;
+  padding: 20px 20px 20px 0;
+  color: #4d4d4d;
+  text-transform: capitalize;
+  @media screen and (max-width: 600px) {
+    font-size: 24px;
+  }
+}
+
+.address-details {
+  font-size: 14px;
+  padding: 10px;
+  line-height: 1em;
+  color: #808080;
+  @media screen and (max-width: 600px) {
+    font-size: 16px;
+  }
+}
+
+.site-address {
+  color: #f16739;
+  font-size: 16px;
+  padding: 20px 0 0 0;
+  font-weight: bold;
+  @media screen and (max-width: 600px) {
+    font-size: 16px;
+    font-weight: 500;
+
+  }
+}
+
+.contact-details {
+  font-size: 14px;
+  color: #808080;
+  padding: 10px;
+  @media screen and (max-width: 600px) {
+    font-size: 16px;
+    font-weight: 500;
+
+  }
+}
+
+.input-list {
+  width: 100%;
+  height: 60px;
+  border: 0;
+  border-bottom: 1px solid lightgray;
+  padding: 10px;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #959595;
+  @media screen and (max-width: 600px) {
+
+  }
+}
+
+.form-input-items {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px 20px 0;
+  @media screen and (max-width: 600px) {
+
+  }
+}
+
+.section-primary-font {
+  font-size: 40px;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: black; }
+@media screen and (max-width: 600px) {
+  .section-primary-font {
+    font-size: 24px;
+    font-weight: 600; } }

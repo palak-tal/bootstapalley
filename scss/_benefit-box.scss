@@ -1,0 +1,48 @@
+.benefit-container{
+  margin: auto;
+  max-width: 100%;
+  text-align: center;
+  margin-top: 66px;
+  @media screen and (max-width: 600px) {
+    margin-top: 33px;
+    padding: 20px;
+  }
+}
+
+.section-primary-font{
+  font-size: 40px;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: black;
+  @media screen and (max-width: 600px) {
+    font-size: 24px;
+    font-weight: 600;
+  }
+}
+
+.facility-font{
+  color: white;
+  padding:40px;
+}
+
+.benefit-para{
+  font-size: 18px;
+  margin: auto;
+  padding: 21px;
+  line-height: 1.5em;
+  color: #666666;
+  @media screen and (max-width: 600px) {
+    font-size: 18px;
+    line-height: 1em;
+  }
+}
+
+.section-benefit{
+  display: flex;
+  padding: 40px;
+  flex-direction: row;
+  justify-content: space-around;
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,15 @@
+.image-item {
+  display: inline-block;
+  width: 33%;
+  text-align: center; }
+  @media screen and (max-width: 600px) {
+    .image-item {
+      width: 100%; } }
+
+.gallery-images {
+  padding: 20px 20px; }
+  @media screen and (max-width: 600px) {
+    .gallery-images {
+      padding: 0; } }
+
+/*# sourceMappingURL=image-box.css.map */

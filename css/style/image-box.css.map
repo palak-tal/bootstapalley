@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,WAAY;EACV,OAAO,EAAE,YAAY;EACrB,KAAK,EAAE,GAAG;EACV,UAAU,EAAE,MAAM;EAClB,oCAAqC;IAJvC,WAAY;MAKR,KAAK,EAAE,IAAI;;AAIf,eAAe;EACb,OAAO,EAAG,SAAU;EACpB,oCAAqC;IAFvC,eAAe;MAGX,OAAO,EAAE,CAAC",
+"sources": ["../../scss/image-box.scss"],
+"names": [],
+"file": "image-box.css"
+}
